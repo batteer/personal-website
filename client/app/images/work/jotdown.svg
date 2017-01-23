@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="706" height="540" viewBox="0 0 706 540" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="c" x1="-7.774%" y1="-9.316%" y2="100%">
+      <stop stop-color="#7673FF" offset="0%"/>
+      <stop stop-color="#73B7FF" offset="100%"/>
+    </linearGradient>
+    <rect id="a" width="666" height="500" rx="2"/>
+    <filter id="b" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.11 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <rect id="f" width="188" height="334" rx="4"/>
+    <filter id="e" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation=".5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="g" x1="101.614%" x2="0%" y1="50%" y2="50%">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFF566" offset="100%"/>
+    </linearGradient>
+    <rect id="i" width="188" height="334" rx="4"/>
+    <filter id="h" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation=".5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="j" x1="101.614%" x2="2.602%" y1="50%" y2="50%">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFB3B3" offset="100%"/>
+    </linearGradient>
+    <rect id="l" width="188" height="334" rx="4"/>
+    <filter id="k" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation=".5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="m" x1="101.614%" x2="2.973%" y1="50%" y2="50%">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#7FFF8C" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="n" x1="-7.774%" y1="-9.316%" y2="100%">
+      <stop stop-color="#FFF073" offset="0%"/>
+      <stop stop-color="#FA73FF" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(20 10)">
+    <mask id="d" fill="white">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="black" filter="url(#b)" xlink:href="#a"/>
+    <use fill="url(#c)" xlink:href="#a"/>
+    <g transform="translate(239 83)" mask="url(#d)">
+      <g>
+        <use fill="black" filter="url(#e)" xlink:href="#f"/>
+        <use fill="#FFFFFF" xlink:href="#f"/>
+      </g>
+      <rect width="158" height="34" y="10" fill="url(#g)"/>
+      <text font-family="SFUIText-Heavy, SF UI Text" font-size="17" font-weight="600">
+        <tspan x="15" y="33" fill="#171717">Jotdown</tspan>
+      </text>
+      <text font-family="SFUIText-Semibold, SF UI Text" font-size="12" font-weight="500">
+        <tspan x="10.363" y="80" fill="#171717">how’s everyone’s day?</tspan>
+      </text>
+    </g>
+    <g transform="translate(458 83)" mask="url(#d)">
+      <g>
+        <use fill="black" filter="url(#h)" xlink:href="#i"/>
+        <use fill="#FFFFFF" xlink:href="#i"/>
+      </g>
+      <circle cx="15" cy="76" r="5" fill="#DE4A2C"/>
+      <text font-family="SFUIText-Heavy, SF UI Text" font-size="12" font-weight="600">
+        <tspan x="30" y="80" fill="#171717">Barack Obama</tspan>
+      </text>
+      <circle cx="15" cy="105" r="5" fill="#DE4A2C"/>
+      <text font-family="SFUIText-Heavy, SF UI Text" font-size="12" font-weight="600">
+        <tspan x="30" y="109" fill="#171717">Hillary Clinton</tspan>
+      </text>
+      <circle cx="15" cy="134" r="5" fill="#DE4A2C"/>
+      <text font-family="SFUIText-Heavy, SF UI Text" font-size="12" font-weight="600">
+        <tspan x="30" y="138" fill="#171717">Julian Assange</tspan>
+      </text>
+      <rect width="158" height="34" y="10" fill="url(#j)"/>
+      <text font-family="SFUIText-Heavy, SF UI Text" font-size="17" font-weight="600">
+        <tspan x="15" y="33" fill="#171717">Replies</tspan>
+      </text>
+    </g>
+    <g transform="translate(20 83)" mask="url(#d)">
+      <g>
+        <use fill="black" filter="url(#k)" xlink:href="#l"/>
+        <use fill="#FFFFFF" xlink:href="#l"/>
+      </g>
+      <g transform="translate(10 69)">
+        <circle cx="7.5" cy="7.5" r="7.5" fill="#FF7C7C"/>
+        <ellipse cx="10.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <ellipse cx="4.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <path fill="#000000" d="M5.4,7.8 C5.4,8.97945557 6.34020203,9.93559322 7.5,9.93559322 L7.5,9.93559322 C8.65979797,9.93559322 9.6,8.97945557 9.6,7.8"/>
+        <path fill="#F4806D" d="M6.6,8.7 C6.6,9.20548096 7.00294373,9.61525424 7.5,9.61525424 L7.5,9.61525424 C7.99705627,9.61525424 8.4,9.20548096 8.4,8.7"/>
+        <g fill="#171717" transform="translate(25 1)" font-size="12" font-family="SFUIText-Heavy, SF UI Text" font-weight="600">
+          <text>
+            <tspan x="0" y="11">Bob Anderson</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(10 99)">
+        <text fill="#171717" transform="translate(25)" font-size="12" font-family="SFUIText-Heavy, SF UI Text" font-weight="600">
+          <tspan x="0" y="11">Cullen Wilson</tspan>
+        </text>
+        <circle cx="7.5" cy="7.5" r="7.5" fill="#FFEE7C"/>
+        <ellipse cx="10.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <ellipse cx="4.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <path fill="#000000" d="M5.4,7.8 C5.4,8.97945557 6.34020203,9.93559322 7.5,9.93559322 L7.5,9.93559322 C8.65979797,9.93559322 9.6,8.97945557 9.6,7.8"/>
+        <path fill="#F4806D" d="M6.6,8.7 C6.6,9.20548096 7.00294373,9.61525424 7.5,9.61525424 L7.5,9.61525424 C7.99705627,9.61525424 8.4,9.20548096 8.4,8.7"/>
+      </g>
+      <g transform="translate(10 129)">
+        <circle cx="7.5" cy="7.5" r="7.5" fill="#73FFB8"/>
+        <ellipse cx="10.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <ellipse cx="4.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <path fill="#000000" d="M5.4,7.8 C5.4,8.97945557 6.34020203,9.93559322 7.5,9.93559322 L7.5,9.93559322 C8.65979797,9.93559322 9.6,8.97945557 9.6,7.8"/>
+        <path fill="#F4806D" d="M6.6,8.7 C6.6,9.20548096 7.00294373,9.61525424 7.5,9.61525424 L7.5,9.61525424 C7.99705627,9.61525424 8.4,9.20548096 8.4,8.7"/>
+        <g fill="#171717" transform="translate(25 1)" font-size="12" font-family="SFUIText-Heavy, SF UI Text" font-weight="600">
+          <text>
+            <tspan x="0" y="11">Bonnie Smith</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(10 159)">
+        <text fill="#171717" transform="translate(25 1)" font-size="12" font-family="SFUIText-Heavy, SF UI Text" font-weight="600">
+          <tspan x="0" y="11">Daphna Doo</tspan>
+        </text>
+        <circle cx="7.5" cy="7.5" r="7.5" fill="#FF9473"/>
+        <ellipse cx="10.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <ellipse cx="4.5" cy="6.3" fill="#000000" rx=".9" ry=".9"/>
+        <path fill="#000000" d="M5.4,7.8 C5.4,8.97945557 6.34020203,9.93559322 7.5,9.93559322 L7.5,9.93559322 C8.65979797,9.93559322 9.6,8.97945557 9.6,7.8"/>
+        <path fill="#F4806D" d="M6.6,8.7 C6.6,9.20548096 7.00294373,9.61525424 7.5,9.61525424 L7.5,9.61525424 C7.99705627,9.61525424 8.4,9.20548096 8.4,8.7"/>
+      </g>
+      <rect width="158" height="34" y="10" fill="url(#m)"/>
+      <text font-family="SFUIText-Heavy, SF UI Text" font-size="17" font-weight="600">
+        <tspan x="15" y="33" fill="#171717">Friends</tspan>
+      </text>
+    </g>
+    <g mask="url(#d)">
+      <g transform="translate(388 378)">
+        <circle cx="15.5" cy="16.256" r="15.5" fill="url(#n)"/>
+        <path fill="#000000" d="M11.0714286,15.5 C11.0714286,17.6401034 13.0541675,19.375 15.5,19.375 L15.5,19.375 C17.9458325,19.375 19.9285714,17.6401034 19.9285714,15.5"/>
+        <ellipse cx="9.829" cy="12.098" fill="#000000" rx="1.512" ry="1.512"/>
+        <path fill="#000000" d="M21.1707317,13.6097561 C22.005894,13.6097561 22.6829268,12.9327233 22.6829268,12.097561 C22.6829268,11.2623987 22.005894,10.5853659 21.1707317,10.5853659 C20.3355694,10.5853659 19.6585366,11.2623987 19.6585366,12.097561 C19.6585366,12.9327233 20.3355694,13.6097561 21.1707317,13.6097561 Z"/>
+        <path fill="#FF8585" d="M13.8392857,17.1607143 C13.8392857,18.0779015 14.5828128,18.8214286 15.5,18.8214286 L15.5,18.8214286 C16.4171872,18.8214286 17.1607143,18.0779015 17.1607143,17.1607143"/>
+      </g>
+    </g>
+  </g>
+</svg>

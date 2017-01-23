@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="600" height="600" rx="2"/>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.11 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(20 10)">
+    <use fill="black" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFFFFF" xlink:href="#b"/>
+    <g fill="#F4806D" transform="translate(168 204)">
+      <path d="M93.2967742,40.7129032 C92.1903226,15.2064516 68.3806452,13.9129032 62.2870968,13.8580645 C62.2870968,6.34193548 56.1774194,0.232258065 48.6677419,0.232258065 C41.1580645,0.232258065 35.0483871,6.34193548 35.0483871,13.8548387 L35.0483871,13.8774194 C27.4677419,14.1064516 6.25483871,16.5741935 4.68709677,41.1516129 L1.47096774,106.667742 L80.0129032,106.667742 C80.7290323,106.7 80.8741935,107.422581 80.8741935,107.422581 L85.6580645,122.46129 C85.6580645,122.46129 85.8096774,122.848387 85.516129,122.851613 C83.9580645,122.867742 75.9516129,122.854839 75.8032258,122.851613 C75.6387097,122.848387 75.4935484,122.812903 75.5806452,122.541935 C76.1,120.9 79.4935484,110.241935 79.5645161,110.029032 C79.6387097,109.793548 79.5451613,109.73871 79.3290323,109.73871 L1.31935484,109.73871 L0.770967742,120.941935 C0.770967742,131.851613 12.0096774,131.851613 16.3354839,131.851613 L83.6096774,131.851613 C87.9387097,131.851613 97.8709677,131.851613 97.8709677,120.612903 L93.2967742,40.7129032 L93.2967742,40.7129032 Z M48.6870968,3.28709677 C54.5774194,3.28709677 59.3677419,7.92580645 59.3677419,13.8193548 C48.016129,13.2806452 37.9967742,13.8193548 37.9967742,13.8193548 C37.9967742,7.92580645 42.7935484,3.28709677 48.6870968,3.28709677 L48.6870968,3.28709677 Z" transform="translate(84)"/>
+      <text font-family="Gotham-Bold, Gotham" font-size="31" font-weight="bold">
+        <tspan x="0" y="187">SESH TUTORING</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

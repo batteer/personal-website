@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="490" viewBox="0 0 640 490" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="b" width="600" height="450"/>
+    <filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.11 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(20 10)">
+    <use fill="black" filter="url(#a)" xlink:href="#b"/>
+    <use fill="#FFFFFF" xlink:href="#b"/>
+    <rect width="600" height="37" fill="#FFFFFF" rx="2"/>
+    <circle cx="11.5" cy="18.5" r="3.5" fill="#FC625D"/>
+    <circle cx="26.5" cy="18.5" r="3.5" fill="#FEC141"/>
+    <circle cx="41.5" cy="18.5" r="3.5" fill="#35CD4B"/>
+    <text fill="#FF0000" font-family="SFUIText-Heavy, SF UI Text" font-size="29" font-weight="600">
+      <tspan x="174" y="88">Fuck, what now?</tspan>
+    </text>
+    <g fill="#171717" transform="translate(141 105)" font-size="10" font-family="SFUIText-Heavy, SF UI Text" font-weight="600">
+      <text>
+        <tspan x="80.097" y="10">Pro-earth</tspan>
+      </text>
+      <text>
+        <tspan x=".137" y="10">Pro-women</tspan>
+      </text>
+      <text>
+        <tspan x="254.156" y="10">Anti-bigotry</tspan>
+      </text>
+      <text>
+        <tspan x="151.265" y="10">Pro-immigraton</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
